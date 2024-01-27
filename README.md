@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Running the Web Application Locally with Docker
+
+This repository contains a Dockerfile to set up a development environment for a web application built using Create React App. Follow the instructions below to get the Docker container and the web application running on your local system.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- Docker: [Get Docker](https://docs.docker.com/get-docker/)
+
+## Getting Started
+
+1. **Clone the Repository:**
+
+  Clone this repository to your local machine using the following command in terminal:
+
+  git clone https://github.com/Zach-Jordan/jordan_zachery_coding_assignment11.git
+
+  cd <repository-directory>
+
+2. **Docker Commands**
+
+  docker build -t jordan_zachery_coding_assignment11 .
+
+  docker run -d -p 7775:7775 jordan_zachery_coding_assignment11 OR run on docker app on correct container
